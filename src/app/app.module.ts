@@ -15,6 +15,8 @@ import { P14q1Component } from './p14/p14q1/p14q1.component';
 import { P16q1Component } from './p16/p16q1/p16q1.component';
 import { P17q1Component } from './p17/p17q1/p17q1.component';
 import { P17q1page2Component } from './p17/p17q1/p17q1page2/p17q1page2.component';
+import { P18q1Component } from './p18/p18q1/p18q1.component';
+import { P18q1page2Component } from './p18/p18q1/p18q1page2/p18q1page2.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { P17q1page2Component } from './p17/p17q1/p17q1page2/p17q1page2.component
     P16q1Component,
     P17q1Component,
     P17q1page2Component,
+    P18q1Component,
+    P18q1page2Component,
   ],
   imports: [
     BrowserModule,

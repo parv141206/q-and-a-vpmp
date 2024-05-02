@@ -1,0 +1,7 @@
+<div *ngFor="let student of students">
+  <li class="list-group-item">{{ student.roll }} {{ student.name }}</li>
+  <li class="list-group-item">
+    {{ student.age }}
+  </li>
+  <button><a href="student/{{ student.roll }}"> Details </a></button>
+</div>
