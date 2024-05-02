@@ -1,0 +1,7 @@
+<div *ngFor="let product of products">
+  <li class="list-group-item">{{ product.id }} {{ product.name }}</li>
+  <li class="list-group-item">
+    {{ product.price }}
+  </li>
+  <a href="product/{{ product.id }}">Buy</a>
+</div>

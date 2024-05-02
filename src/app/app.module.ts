@@ -12,6 +12,9 @@ import { P12q2Component } from './p12/p12q2/p12q2.component';
 import { P13q1Component } from './p13/p13q1/p13q1.component';
 import { HttpClientModule } from '@angular/common/http';
 import { P14q1Component } from './p14/p14q1/p14q1.component';
+import { P16q1Component } from './p16/p16q1/p16q1.component';
+import { P17q1Component } from './p17/p17q1/p17q1.component';
+import { P17q1page2Component } from './p17/p17q1/p17q1page2/p17q1page2.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +25,9 @@ import { P14q1Component } from './p14/p14q1/p14q1.component';
     P12q2Component,
     P13q1Component,
     P14q1Component,
+    P16q1Component,
+    P17q1Component,
+    P17q1page2Component,
   ],
   imports: [
     BrowserModule,
